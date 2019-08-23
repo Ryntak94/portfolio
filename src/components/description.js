@@ -6,7 +6,7 @@ import Project from './project.js'
 const DescriptionContainer = styled.div`
     height: 500px;
     box-sizing: border-box;
-    border-bottom: solid 1px gray;
+    /* border-bottom: solid 1px gray; */
     display: flex;
     align-items: center;
     padding: 5%;
@@ -16,7 +16,7 @@ const DescriptionContainer = styled.div`
 const DescriptionContainer2 = styled.div`
     height: 500px;
     box-sizing: border-box;
-    border-bottom: solid 1px gray;
+    /* border-bottom: solid 1px gray; */
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
