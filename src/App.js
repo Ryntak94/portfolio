@@ -31,7 +31,8 @@ class App extends Component {
             <Banner/>
             <Content projects={this.state.projects}/>
             <Description projects={this.state.projects}/>
-            <Content flipped={true} projects={this.state.projects}/>
+            <Content flipped={true} projects={this.state.projects.slice(0,3)}/>
+            <Description projects={this.state.projects.slice(0,3)}/>
             </div>
         );
     }
