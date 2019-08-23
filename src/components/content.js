@@ -25,14 +25,14 @@ const ContentContainer2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #DAF3EF;
+    background: #FECACC;
     height: 600px;
 `
 const BackgroundTriangle2 = styled.div`
     -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 0);
-    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
     height: 600px;
-    background: #FECACC;
+    background: #DAF3EF;
     width:100%;
     position: absolute;
 `

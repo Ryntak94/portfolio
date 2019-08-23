@@ -4,6 +4,7 @@ import './App.css';
 import Banner from './components/banner.js'
 import Content from './components/content.js'
 import Description from  './components/description.js'
+import TechStack from './components/techStack.js'
 
 class App extends Component {
     constructor(props)  {
@@ -29,6 +30,7 @@ class App extends Component {
         return (
             <div className="App">
             <Banner/>
+            <TechStack/>
             <Content projects={this.state.projects}/>
             <Description projects={this.state.projects}/>
             <Content flipped={true} projects={this.state.projects.slice(0,3)}/>
