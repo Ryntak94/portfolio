@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import styled from 'styled-components'
 
 const ProjectContainer = styled.div`
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     color: black;
     z-index: 100;
     background: lightgray;
