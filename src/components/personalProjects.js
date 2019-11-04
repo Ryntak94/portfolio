@@ -4,30 +4,30 @@ import styled from 'styled-components'
 
 const BannerComponent = styled.div`
     width: 100%;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background: #2A2A2A;
-    color: white;
-    font-size: 1.7em;
+    background: lightgray;
+    color: #2A2A2A;
+    font-size: 1.3em;
     font-weight: bold;
     flex-direction: column;
     padding: 0 15%;
     font-family: "Lucida Console", Monaco, monospace;
     line-height: 125%;
-    border-bottom: solid 1px darkgray
 `
 
-class Banner extends Component {
+class PersonalProjects extends Component {
     render()    {
         return  (
             <BannerComponent>
-                My name is Ryan Matthews and I'm a Full Stack Web Developer, born in Houston and based in Atlanta. I'm currently a Team Lead for Lambda School, with a focus on growth for myself and others.
+                The following projects are ones that I worked on directly as a developer. I was either practicing and honing my skills or learning to
+                to work on a team of developers.
             </BannerComponent>
         )
     }
 }
 
-export default Banner;
+export default PersonalProjects;

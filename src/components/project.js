@@ -2,26 +2,16 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components'
 
-const ProjectContainer = styled.div`
-    width: 300px;
-    height: 200px;
-    color: black;
-    z-index: 100;
-    background: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1%;
-    border: 1px solid #232b2b;
+const ProjectContainer = styled.img`
+    width: 450px;
+    height: 310px;
 `
 
 class Project extends Component {
     render()    {
-        console.log(this.props)
+        console.log(this.props.url)
         return  (
-            <ProjectContainer>
-                {this.props.pName}
-            </ProjectContainer>
+            <a href={this.props.url} target="_blank"><ProjectContainer src={this.props.image}/></a>
         )
     }
 }

@@ -44,6 +44,10 @@ const Info = styled.div`
     justify-content: space-around;
 `
 
+const SeeMore = styled.a`
+    color: black
+`
+
 class Content extends Component {
     constructor(props)  {
         super(props);
@@ -57,7 +61,13 @@ class Content extends Component {
                     <Info>
                         {
                             this.props.projects.map(project =>  {
-                                return <Project pName={project.name} />
+                                return (
+                                    <div>
+                                        <Project image={project.image} pName={project.name} url={project.url}/>
+                                        <div>
+                                            <SeeMore href={`#${project.id}`}>See More...</SeeMore>
+                                        </div>
+                                    </div>)
                             })
                         }
                     </Info>
@@ -68,7 +78,13 @@ class Content extends Component {
                     <Info>
                         {
                             this.props.projects.map(project =>  {
-                                return <Project pName={project.name} />
+                                return (
+                                    <div>
+                                        <Project image={project.image} pName={project.name} url={project.url}/>
+                                        <div>
+                                            <SeeMore href={`#${project.id}`}>See More...</SeeMore>
+                                        </div>
+                                    </div>)
                             })
                         }
                     </Info>

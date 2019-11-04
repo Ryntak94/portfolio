@@ -987,6 +987,11 @@
   dependencies:
     "@hapi/hoek" "6.x.x"
 
+"@iconify/icons-fa-solid@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-fa-solid/-/icons-fa-solid-1.0.5.tgz#313ed7b2c92379af75080d41b13d8e8714787515"
+  integrity sha512-vVNcwEhfDxeCbZtlANzCdsgflBG+ND2rY6Qf+5CetMVN51X+R/Q4DrdB01r94ZiMK7gGO12YCEIoC3eXT1H6jw==
+
 "@iconify/icons-logos@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.0.1.tgz#cde07a24aa7abbc5b561811e36ec28ad8e57fd64"
