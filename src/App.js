@@ -63,7 +63,10 @@ class App extends Component {
                     id: "roamly",
                     url: "https://roamly.app",
                     github: "https://github.com/labs14-travel-website",
-                    description: `Roamly is a travel application that lets you `
+                    description: `Roamly is a travel web application that gives users the ability to search/view and favorite/unfavorite attractions for a
+                    particular destination. Relevant information such as average star rating, price range, and description will allow for smoother
+                    itinerary planning. Favorited destinations are easily accessible from within each user's profile. We used React with hooks, GraphQL,
+                    CSS Modules, OAuth, and the Google API.`
                 },
                 {
                     image: require("./images/buildMyApp.png"),
@@ -74,7 +77,7 @@ class App extends Component {
                     description: `Build My App is a web app designed to connect people with ideas, and developers, so they can partner together and create
                     awesome projects. Users can create an account as either a developer or a stakeholder, and they can search through users to find the
                     perfect match. Stakeholders can post their project ideas, and developers can browse these and find one that's suitable for their
-                    skills and expectations. We used React, Redux, React Router, Material UI, styled components, node, express, PostGresQL, Auth0, 
+                    skills and expectations. We used React, Redux, React Router, Material UI, styled components, node, express, PostGresQL, Auth0,
                     render.io for deploying the front end, and Heroku for deploying the back end.`
                 }
 
