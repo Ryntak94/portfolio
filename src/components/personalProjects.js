@@ -23,7 +23,7 @@ class PersonalProjects extends Component {
     render()    {
         return  (
             <BannerComponent>
-                The following projects are ones that I worked on directly as a developer. I was either practicing and honing my skills or learning to
+                The following projects are ones that I worked on directly as a developer. I was either practicing and honing my skills or learning
                 to work on a team of developers.
             </BannerComponent>
         )
